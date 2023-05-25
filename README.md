@@ -1,6 +1,6 @@
 # opensw-ksc
 
-<li>•Team Introduction</li>
+<li>Team Introduction</li><br>
 202011267 김승찬 (indiviual)
 •Topic Introduction
 (empty)
