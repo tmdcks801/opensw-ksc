@@ -1,14 +1,14 @@
 # opensw-ksc
 
-<li>Team Introduction</li><br>
-202011267 김승찬 (indiviual)
-•Topic Introduction
-(empty)
-•Results
-(empty)
-•Analysis/Visualization
-(empty)
-•Installation
-(empty)
-•Presentation
-(empty)
+•Team Introduction<br>
+202011267 김승찬 (indiviual)<br>
+•Topic Introduction<br>
+(empty)<br>
+•Results<br>
+(empty)<br>
+•Analysis/Visualization<br>
+(empty)<br>
+•Installation<br>
+(empty)<br>
+•Presentation<br>
+(empty)<br>
