@@ -10,7 +10,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
   <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="286" height="400" />
   <span style="display: inline-block; font-size: 24px; margin-top: 100px; margin-bottom: 100px;">+</span>
   <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="286" height="400" />
-  <span style="margin: 0 10px; font-size: 24px;">=</span>
+  <span style="margin: 0 1000px; font-size: 24px;">=</span>
   <img src="/output/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="286" height="400" />
 </div>
 
