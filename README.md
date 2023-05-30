@@ -20,5 +20,9 @@ pip list to install (argparse, numpy, matplotlib, torch, pytorch)<br>
   1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
   2. Run `conda env create` (while in project directory)
   3. Run `activate pytorch-nst`
+### Usage
+  1. Copy content images to the default content image directory: `/data/content-images/`
+  2. Copy style images to the default style image directory: `/data/style-images/`
+  3. Run `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>`
 ## •Presentation<br>
 (empty)<br>
