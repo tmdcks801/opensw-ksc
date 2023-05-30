@@ -5,16 +5,6 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 https://github.com/gordicaleksa/pytorch-neural-style-transfer
 ## •Results<br>
 
- <style>
-  .image-container {
-    display: flex;
-  }
-
-  .image-container img {
-    display: block;
-  }
-</style>
-
 ### input
 <div class="image-container">
   <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" />
