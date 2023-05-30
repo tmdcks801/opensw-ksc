@@ -9,6 +9,7 @@ https://github.com/gordicaleksa/pytorch-neural-style-transfer
   input<br>
   <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" />
   <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="314" height="440" />
+  <br>
   output<br>
   <img src="/output/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" />
 </div>
