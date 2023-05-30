@@ -16,5 +16,8 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 ## •Installation<br>
 install anaconda, pytorch(you need cuda)<br>
 pip list to install (argparse, numpy, matplotlib, torch, pytorch)<br>
+1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
+2. Run `conda env create` (while in project directory)
+3. Run `activate pytorch-nst`
 ## •Presentation<br>
 (empty)<br>
