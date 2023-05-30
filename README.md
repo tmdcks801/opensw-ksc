@@ -1,10 +1,8 @@
-<small>
-•Team Introduction<br>
+<big> •Team Introduction<br></big>
 202011267 김승찬 (indiviual, team num 8)<br>
-•Topic Introduction<br>
+<big>•Topic Introduction<br></big>
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
-</small>
-•Results<br>
+<big>•Results<br></big>
 
 <div style="display: flex;">
   <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" />
