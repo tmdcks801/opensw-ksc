@@ -11,7 +11,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 </div>
 
 <br>
-### •Analysis/Visualization<br>
+### •Analysis/Visualization <br>
 (empty)<br>
 ### •Installation<br>
 install anaconda, pytorch(you need cuda)<br>
