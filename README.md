@@ -32,6 +32,6 @@ Install to python (pip install <b>argparse, numpy, matplotlib, torch, pytorch</b
   1. Copy content images to the default content image directory: `/data/content-images/`
   2. Copy style images to the default style image directory: `/data/style-images/`
   3. Run to cmd or Anaconda Prompt `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>`
-      ex) 'python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg'
+      ex) `python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg`
 ## •Presentation<br>
 (empty)<br>
