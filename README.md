@@ -3,7 +3,7 @@
 •Topic Introduction<br>
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 •Results<br>
-<img src="/output/combined_a01_candy height 50~1200/a01.jpg"  width="57.8" height="80.0"><br>
+<img src="/output/combined_a01_candy height 50~1200/a01.jpg"  width="171.6" height="240"><br>
 •Analysis/Visualization<br>
 (empty)<br>
 •Installation<br>
