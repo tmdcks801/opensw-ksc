@@ -6,7 +6,7 @@ https://github.com/gordicaleksa/pytorch-neural-style-transfer
 ## •Results<br>
 
 <div>
-  <p style="font-size: 18px;">input</p>
+  <p style="font-size: 30px;">input</p>
   <br>
   <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" />
   <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="314" height="440" />
