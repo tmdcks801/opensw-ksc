@@ -7,10 +7,15 @@ https://github.com/gordicaleksa/pytorch-neural-style-transfer
 
   ### input
   <br>
-  <figure>
-    <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" />
-    <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="314" height="440" />
- </figure>
+<figure>
+  <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="314" height="440" alt="이미지 1">
+  <figcaption>이미지 1 캡션</figcaption>
+</figure>
+
+<figure>
+  <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="314" height="440" alt="이미지 2">
+  <figcaption>이미지 2 캡션</figcaption>
+</figure>
   <br>
   ### output
   <br>
