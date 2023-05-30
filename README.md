@@ -10,8 +10,6 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
   <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/output/combined_a01_candy height 50~1200/a01.jpg" width="286" height="400" />
     <p style="text-align: center;">+</p>
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center;">
     <img src="/output/combined_a01_candy height 50~1200/candy.jpg" width="286" height="400" />
     <p style="text-align: center;">이미지2 설명</p>
   </div>
