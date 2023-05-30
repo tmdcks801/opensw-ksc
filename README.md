@@ -14,7 +14,8 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 
 <br>
 •Analysis/Visualization<br>
-(empty)<br>
+install anaconda, pytorch(you need cuda or nvdiadriver)<br>
+need pip list to install (argparse, numpy, matplotlib, torch, pytorch)
 •Installation<br>
 (empty)<br>
 •Presentation<br>
