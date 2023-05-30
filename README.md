@@ -22,7 +22,7 @@ https://github.com/gordicaleksa/pytorch-neural-style-transfer
 ## •Analysis/Visualization <br>
 (empty)<br>
 ## •Installation<br>
-Install anaconda, pytorch(you need cuda)<br>
+Install anaconda, pytorch<br>
 Install to python (pip install <b>argparse, numpy, matplotlib, torch, pytorch</b>)<br>
 ### Setup
   1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
