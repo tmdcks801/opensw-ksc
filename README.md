@@ -22,8 +22,8 @@ Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-tran
 ## •Analysis/Visualization <br>
 (empty)<br>
 ## •Installation<br>
-You need to install anaconda, pytorch<br>
-Install to python (pip install <b>argparse, numpy, matplotlib, torch, pytorch</b>)<br>
+You need to install anaconda, pytorch, python<br>
+Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 ### Setup
   1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
   2. Run `conda env create` (while in project directory)
