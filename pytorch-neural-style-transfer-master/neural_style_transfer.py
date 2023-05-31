@@ -142,9 +142,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("--content_img_name", type=str, help="content image name", default='figures.jpg')
     parser.add_argument("--style_img_name", type=str, help="style image name", default='vg_starry_night.jpg')
-    parser.add_argument("--height", type=int, help="height of content and style images", default=500)##원래 400   50,100,200,400,600,800
+    parser.add_argument("--height", type=int, help="height of content and style images", default=400)##원래 400   50,100,200,400,600,800
 
-    parser.add_argument("--content_weight", type=float, help="weight factor for content loss", default=1e5)##원래1e5      2,6,10 해야함
+    parser.add_argument("--content_weight", type=float, help="weight factor for content loss", default=1e5)##원래1e5      2  ,6,10 해야함
     parser.add_argument("--style_weight", type=float, help="weight factor for style loss", default=3e4)##원래3e4 0,2,4,6,8    6까지함
     parser.add_argument("--tv_weight", type=float, help="weight factor for total variation loss", default=1e0)##원래1e0
 
