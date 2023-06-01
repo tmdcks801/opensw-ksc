@@ -52,7 +52,7 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 ### Usage
   1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.
   2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.
-  3. Run to cmd or Anaconda Prompt `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>`<br>
+  3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>` 을 실행합니다.<br>
   ex) `python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg`
 ## •Presentation<br>
 (empty)<br>
