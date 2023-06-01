@@ -2,7 +2,6 @@
 202011267 김승찬 (indiviual, team num 8)<br>
 ## •Topic Introduction<br>
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
-Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer
 ## •Results<br>
 
 ### input
@@ -22,6 +21,7 @@ Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-tran
 ## •Analysis/Visualization <br>
 (empty)<br>
 ## •Installation<br>
+Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer
 You need to install anaconda, pytorch, python<br>
 Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 ### Setup
