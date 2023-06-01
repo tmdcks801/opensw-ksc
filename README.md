@@ -28,9 +28,9 @@ You need to install anaconda, pytorch, python<br>
 Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 Git clone this repository<br>
 
-###test enviroment
-os:window 11 64 bit
-processer: AMD Ryzen 5 5600H with Radeon Graphics
+### test enviroment<br>
+os:window 11 64 bit<br>
+processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
 다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)<br>
