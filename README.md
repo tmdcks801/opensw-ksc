@@ -33,7 +33,7 @@ os:window 11 64 bit<br>
 processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
-다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)
+0.다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)
 1.다운받은 파일을 실행합니다.<br>
 2.동의 후 사용자를 선택해줍니다.<br>
 3. 설치 경로를 지정해줍니다. 이 때 3.0GB 용량이 필요합니다.<br>
