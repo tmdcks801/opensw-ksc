@@ -50,8 +50,8 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
   2. `conda env create`를 실행합니다. (파일의 위치에 있는 동안)
   3. `activate pytorch-nst`를 실행합니다.
 ### Usage
-  1. Copy content images to the default content image directory: `/data/content-images/`
-  2. Copy style images to the default style image directory: `/data/style-images/`
+  1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.
+  2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.
   3. Run to cmd or Anaconda Prompt `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>`<br>
   ex) `python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg`
 ## •Presentation<br>
