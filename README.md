@@ -41,7 +41,7 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics
 
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)
-2 <img src="/output/pytorch.png"/><br>
+2. 제 환경에서는 아래의 선택이 맞습니다.<br> <img src="/output/pytorch.png"/><br>
 다음 홈페이지에서 가르켜준 코드를 실행하면 됩니다.
   
 
