@@ -42,7 +42,8 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)
 2. 제 환경에서는 아래의 옵션을 선택했습니다..<br> <img src="/output/pytorch.png"/><br>
-다음 홈페이지에서 가르켜준 코드를 실행하면 됩니다.
+당신에게 맞는 환경을 선택하신 후 실행시키면 됩니다.<br>
+다음 홈페이지에서 가르켜준 코드를 실행하면 됩니다.<br>
   
 
 ### Setup
@@ -52,7 +53,7 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 ### Usage
   1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.
   2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.
-  3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>` 을 실행합니다.<br>
-  ex) `python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg`
+  3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img파일 이름> --style_img_name <style-img파일 이>` 을 실행합니다.<br>
+  ex) `python neural_style_transfer.py --content_img_name a01.jpg --style_img_name v5.png`
 ## •Presentation<br>
 (empty)<br>
