@@ -26,7 +26,14 @@ The content image is then redrawn in the style of the style image
 #### Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
 You need to install anaconda, pytorch, python<br>
 Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
-Git clone https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
+Git clone this repository<br>
+
+실행 환경
+
+아나콘다 설치법
+
+파이토치 설치법
+
 ### Setup
   1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
   2. Run `conda env create` (while in project directory)
