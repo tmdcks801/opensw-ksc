@@ -4,6 +4,7 @@
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 그림체를 바꾸고 싶은 그림과 바꿀 그림체를 선택하고 실행시킵니다.<br>
 그러면 당신이 고른 그림체를 학습하여 화풍이 바뀐 새로운 그림이 나올겁니다.<br>
+#### 참조 repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
 ## •Results<br>
 
 ### input
@@ -23,7 +24,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 ## •Analysis/Visualization <br>
 (empty)<br>
 ## •Installation<br>
-#### 참조 repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
+
 anaconda, pytorch, python이 필요합니다.<br>
 python에 다음과 같은 것들이 import되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 이 repository이 clone되어 있어야 합니다.(https://github.com/tmdcks801/opensw-ksc)<br>
