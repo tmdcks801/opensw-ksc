@@ -28,9 +28,9 @@ You need to install anaconda, pytorch, python<br>
 Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 Git clone this repository<br>
 
-###test enviroment
-os:window 11 64 bit
-processer: AMD Ryzen 5 5600H with Radeon Graphics
+### test enviroment<br>
+os:window 11 64 bit<br>
+processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
 다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)<br>
@@ -41,15 +41,19 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics
 
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)
+2. 제 환경에서는 아래의 옵션을 선택했습니다..<br> <img src="/output/pytorch.png"/><br>
+당신에게 맞는 환경을 선택하신 후 실행시키면 됩니다.<br>
+다음 홈페이지에서 가르켜준 코드를 실행하면 됩니다.<br>
+  
 
 ### Setup
-  1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
-  2. Run `conda env create` (while in project directory)
-  3. Run `activate pytorch-nst`
+  1. Anaconda Prompt를 실행하고 프로젝트 파일의 위치로 이동합니다. `cd path_to_repo`
+  2. `conda env create`를 실행합니다. (파일의 위치에 있는 동안)
+  3. `activate pytorch-nst`를 실행합니다.
 ### Usage
-  1. Copy content images to the default content image directory: `/data/content-images/`
-  2. Copy style images to the default style image directory: `/data/style-images/`
-  3. Run to cmd or Anaconda Prompt `python neural_style_transfer.py --content_img_name <content-img-name> --style_img_name <style-img-name>`<br>
-  ex) `python neural_style_transfer.py --content_img_name lion.jpg --style_img_name candy.jpg`
+  1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.
+  2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.
+  3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img파일 이름> --style_img_name <style-img파일 이름>` 을 실행합니다.<br>
+  ex) `python neural_style_transfer.py --content_img_name a01.jpg --style_img_name v5.png`
 ## •Presentation<br>
 (empty)<br>
