@@ -59,6 +59,7 @@ python에 다음과 같은 것들이 install되어 있어야합니다. (pip inst
   위 ex)코드를 성공적으로 실행시켰고 기다리면 아래 이미지와 유사한 이미지가 `/data/output-images`에 저장될것입니다.<br>
   <img src="/output/a01_v5_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" />
   <br>
+  이제 여러 그림을 선택하여 실행하여 만들고 싶은 이미지를 만드시면 됩니다.<br>
   
 ## •Presentation
 (empty)<br>
