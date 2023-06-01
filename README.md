@@ -26,7 +26,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 ## •Installation<br>
 
 anaconda, pytorch, python이 필요합니다.<br>
-python에 다음과 같은 것들이 install되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)###### 자세한 것은 environment.yml을 참조하세요<br>
+python에 다음과 같은 것들이 install되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>) ###### 자세한 것은 environment.yml을 참조하세요<br>
 이 repository이 clone되어 있어야 합니다.(https://github.com/tmdcks801/opensw-ksc)<br>
 
 ### test enviroment<br>
