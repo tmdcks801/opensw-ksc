@@ -25,14 +25,14 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 (empty)<br>
 ## •Installation<br>
 
+### test enviroment<br>
+os: window 11 64 bit<br>
+processer: AMD Ryzen 5 5600H with Radeon Graphics<br
+
 anaconda, pytorch, python이 필요합니다.<br>
 python에 다음과 같은 것들이 install되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>) <br>
 자세한 것은 environment.yml을 참조하세요<br>
 이 repository이 clone되어 있어야 합니다.(https://github.com/tmdcks801/opensw-ksc)<br>
-
-### test enviroment<br>
-os: window 11 64 bit<br>
-processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
 다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)<br>
