@@ -34,10 +34,10 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
 다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)<br>
-1.다운받은 파일을 실행합니다.
-2.동의 후 사용자를 선택해줍니다.
-3. 설치 경로를 지정해줍니다. 이 때 3.0GB 용량이 필요합니다.
-4. 설치가 시작고 끝난 후 finish를 눌러줍니다.
+1.다운받은 파일을 실행합니다.<br>
+2.동의 후 사용자를 선택해줍니다.<br>
+3. 설치 경로를 지정해줍니다. 이 때 3.0GB 용량이 필요합니다.<br>
+4. 설치가 시작고 끝난 후 finish를 눌러줍니다.<br>
 
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)
@@ -46,12 +46,12 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
   
 
 ### Setup
-  1. Anaconda Prompt를 실행하고 프로젝트 파일의 위치로 이동합니다. `cd path_to_repo`
-  2. `conda env create`를 실행합니다. (파일의 위치에 있는 동안)
-  3. `activate pytorch-nst`를 실행합니다.
+  1. Anaconda Prompt를 실행하고 프로젝트 파일의 위치로 이동합니다. `cd path_to_repo`<br>
+  2. `conda env create`를 실행합니다. (파일의 위치에 있는 동안)<br>
+  3. `activate pytorch-nst`를 실행합니다.<br>
 ### Usage
-  1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.
-  2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.
+  1. `/data/content-images/`에 바꾸고자 하는 그림의 content image이미지를 저장시킵니다.<br>
+  2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.<br>
   3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img파일 이름> --style_img_name <style-img파일 이름>` 을 실행합니다.<br>
   ex) `python neural_style_transfer.py --content_img_name a01.jpg --style_img_name v5.png`<br>
   위 ex)코드를 성공적으로 실행했다면 아래 이미지가 나올 것입니다.<br>
