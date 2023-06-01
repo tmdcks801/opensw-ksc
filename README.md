@@ -54,7 +54,7 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
   2. `/data/style-images/`에 선택하고 싶은 그림체의 style images이미지를 저장시킵니다.<br>
   3. 명렬프롬포트 또는 Anaconda Prompt를 실행 후 프로젝트 파일로 이동 후  `python neural_style_transfer.py --content_img_name <content-img파일 이름> --style_img_name <style-img파일 이름>` 을 실행합니다.<br>
   ex) `python neural_style_transfer.py --content_img_name a01.jpg --style_img_name v5.png`<br>
-  위 ex)코드를 성공적으로 실행했다면 아래 이미지가 나올 것입니다.<br>
+  위 ex)코드를 성공적으로 실행시켰고 기다리면 아래 이미지와 유사한 이미지가 `/data/output-images/`에 저장될것입니다..<br>
   <img src="/output/a01_v5_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" />
   <br>
   
