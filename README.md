@@ -41,6 +41,8 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics
 
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)
+2. output/pytorch.png
+3. <img src="/output/pytorch.png"/>
 
 ### Setup
   1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
