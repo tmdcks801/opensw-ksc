@@ -46,9 +46,9 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
   
 
 ### Setup
-  1. Open Anaconda Prompt and navigate into project directory `cd path_to_repo`
-  2. Run `conda env create` (while in project directory)
-  3. Run `activate pytorch-nst`
+  1. Anaconda Prompt를 실행하고 프로젝트 파일의 위치로 이동합니다. `cd path_to_repo`
+  2. `conda env create`를 실행합니다. (파일의 위치에 있는 동안)
+  3. `activate pytorch-nst`를 실행합니다.
 ### Usage
   1. Copy content images to the default content image directory: `/data/content-images/`
   2. Copy style images to the default style image directory: `/data/style-images/`
