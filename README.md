@@ -33,7 +33,7 @@ os:window 11 64 bit<br>
 processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### anaconda 설치법
-0.다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)
+다음 공식 홈페이지에서 다운 받을수 있습니다 (https://www.anaconda.com/download/)<br>
 1.다운받은 파일을 실행합니다.<br>
 2.동의 후 사용자를 선택해줍니다.<br>
 3. 설치 경로를 지정해줍니다. 이 때 3.0GB 용량이 필요합니다.<br>
@@ -41,8 +41,8 @@ processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 ### pytorch 설치법
 1. 다음 홈페이지에서 자신에게 맞는 환경을 선택합니다.(https://pytorch.org/get-started/locally/)<br>
-2. 제 환경에서는 아래의 옵션을 선택했습니다..<br> <img src="/output/pytorch.png"/><br>
-당신에게 맞는 환경을 선택하신 후 홈페이지에서 가르켜준 코드를 실행하면 됩니다.<br>
+2. 저의 환경에서는 아래의 옵션을 선택했습니다..<br> <img src="/output/pytorch.png"/><br>
+당신은 당신에게 맞는 환경을 선택하신 후 홈페이지에서 가르켜준 코드를 실행하면 됩니다.<br>
   
 
 ### Setup
