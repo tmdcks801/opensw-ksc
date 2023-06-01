@@ -2,7 +2,7 @@
 202011267 김승찬 (indiviual, team num 8)<br>
 ## •Topic Introduction<br>
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
-그림체를 바꾸고 싶은 그림과 바꾸고 싶은 그림체를 선택하고 실행시킵니다.<br>
+그림체를 바꾸고 싶은 그림과 바꿀 그림체를 선택하고 실행시킵니다.<br>
 그러면 당신이 고른 그림체를 학습하여 화풍이 바뀐 새로운 그림이 나올겁니다.<br>
 ## •Results<br>
 
