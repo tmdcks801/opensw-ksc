@@ -23,9 +23,9 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 ## •Analysis/Visualization <br>
 (empty)<br>
 ## •Installation<br>
-#### Reference repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
-You need to install anaconda, pytorch, python<br>
-Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
+#### 참조 repository : https://github.com/gordicaleksa/pytorch-neural-style-transfer<br>
+anaconda, pytorch, python이 필요합니다.<br>
+Ipython에 다음과 같은 것들이 import되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>)<br>
 Git clone this repository<br>
 
 ### test enviroment<br>
