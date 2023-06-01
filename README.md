@@ -2,7 +2,7 @@
 202011267 김승찬 (indiviual, team num 8)<br>
 ## •Topic Introduction<br>
 Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
-Choice content-image and style image
+Choice content-image and style image<br>
 The content image is then redrawn in the style of the style image
 ## •Results<br>
 
