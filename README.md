@@ -29,6 +29,9 @@ Install to python (pip install <b> numpy, pip, matplotlib, torchvision, pytorch,
 Git clone this repository<br>
 
 실행 환경
+os:window 11
+processer: AMD Ryzen 5 5600H with Radeon Graphics
+
 
 아나콘다 설치법
 
