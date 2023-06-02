@@ -17,17 +17,68 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <br>
 <div class="image-container">
 <img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" />
-<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" /> 
  </div>
 
 
 ## •Analysis/Visualization <br>
-(empty)<br>
+
+우선 본문에서 다룰 해당 머닝 러신에서의 변수는 총 4가지 있습니다.<br>
+1. tv weight (total variation loss weight) 
+2. height
+3. content weight
+4. style weight
+
+먼저 tv weight을 설명 드리겠습니다. total variation loss weight를 간단히 설명 드리자면 "원본 이미지가 유지되는 영향의 정도"입니다.
+tv weight의 수치가 높을 수록 원본이미지에 가까운 이미지가 나옵니다.
+아래 이미지는 원본 이미지와 tv weight의 수치를 높인 이미지들 입니다.
+
+<img src="example_image/combined_m1_mosaic1/m1.jpg" height="200" /><br>
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100.0.jpg" height="200" />
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0.jpg" height="200" />
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0.jpg" height="200" />
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100000000.0.jpg" height="200" />
+<img src="example_image/combined_m1_mosaic1/m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000000000.0.jpg" height="200" /><br>
+
+위 이미지들은 차례로 오른쪽으로 갈때마다 tv weight의 수치를 100배씩 증가 시켰습니다.<br>
+
+다음 살펴볼 이미지는 height수치입니다. height는 화질입니다. 
+
+<img src="example_image/combined_a01_candy height 50~1200/a01.jpg" height="300" /><br>
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" />
+<img src="example_image/combined_a01_candy height 50~1200/a01_candy_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="300" /><br>
+
+다음 살펴볼 이미지는 content weight수치입니다.<br> 
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2.jpg" height="300" /><br>
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1.e0.0_sw_30000.0_tv_1.0.jpg" height="300">
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1e2.0_sw_30000.0_tv_1.0.jpg" height="300">
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1e4.0_sw_30000.0_tv_1.0.jpg" height="300">
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1e6.0_sw_30000.0_tv_1.0.jpg" height="300">
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1e8.0_sw_30000.0_tv_1.0.jpg" height="300">
+<img src="example_image/combined_c2_wave_crop tv weight 0~12/c2_wave_crop_o_lbfgs_i_content_h_1200_m_vgg19_cw_1e12.0_sw_30000.0_tv_1.0.jpg" height="300">
+
+다음 살펴볼 이미지는 style weight수치입니다.<br> 
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1.jpg" height="250" /><br>
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e0._tv_1.0.jpg" height="250">
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e2.0_tv_1.0.jpg" height="250">
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e4.0_tv_1.0.jpg" height="250">
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e6.0_tv_1.0.jpg" height="250">
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e8.0_tv_1.0.jpg" height="250">
+<img src="example_image/combined_b1_okeffe_red_canna style weight 0~10/b1_okeffe_red_canna_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3e10.0_tv_1.0.jpg" height="250"><br>
+
+다음은 제가 애용하는 배경하면에 여러 바이레이션을 넣은 사진입니다.<br>
+<img src="example_image/v1/sum.jpg" height="1000" /><br>
+
 ## •Installation<br>
 
 ### test enviroment<br>
 os: window 11 64 bit<br>
-processer: AMD Ryzen 5 5600H with Radeon Graphics<br
+processer: AMD Ryzen 5 5600H with Radeon Graphics<br>
 
 anaconda, pytorch, python이 필요합니다.<br>
 python에 다음과 같은 것들이 install되어 있어야합니다. (pip install <b> numpy, pip, matplotlib, torchvision, pytorch, opencv-python</b>) <br>
