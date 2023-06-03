@@ -44,8 +44,10 @@ output img란 style img의 화풍으로 content img를 다시 그린 그림입�
 ### height
 우선 살펴볼 이미지는 height수치입니다. height는 간단히 말하자면 화질입니다. 
 
+<div>
 <img src="example_image\combined_d1_v4 height/d1.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/v4.png" height="300" /><br>
+</div>
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
@@ -70,14 +72,18 @@ height수치가 높아질수록 확인되는 점들을 말씀 드리겠습니다
 
 다음 살펴볼 이미지는 content weight수치입니다.<br> 
 content weight는 원본 이미지의 색상을 얼마나 유지할지를 정하는 변수입니다.<br>
+<div>
 <img src="example_image\combined_h1_vg_self content\h1.jpg" height="270" />
 <img src="example_image\combined_h1_vg_self content\vg_self.jpg" height="270" /><br>
+</div>
+<div>
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_100.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_10000.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1000000.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_100000000.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_10000000000.0_sw_30000.0_tv_1.0.jpg" height="270">
+</div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 content weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
 위 output img 이미지들은 각 content weight 수치에 변동을 준 이미지들 입니다.<br>
@@ -89,14 +95,18 @@ content weight는 원본 이미지의 색상을 얼마나 유지할지를 정하
 
 다음 살펴볼 이미지는 style weight수치입니다.<br>
 style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지를 정하는 변수입니다.<br>
+</div>
 <img src="example_image\combined_s1_a02 style\s1.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\a02.jpg" height="350" /><br>
+</div>
+<div>
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000000000.0_tv_1.0.jpg" height="350" /><br>
+</div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 style weight = 3e0, 3e2, 3e4, 3e6, 3e8, 3e10)
 위 output img 이미지들은 각 style weight 수치에 변동을 준 이미지들 입니다.<br>
@@ -109,14 +119,18 @@ content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사�
 먼저 tv weight을 설명 드리겠습니다. total variation loss weight를 간단히 설명 드리자면 "content img가 유지되는 영향의 정도"입니다.
 tv weight의 수치가 높을 수록 content img에 가까운 이미지가 나옵니다. 추가로 tv weight가 output 그림체의 부드러움(선명도)도 영향을 끼칩니다.<br>
 
+<div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\mosaic.jpg" height="200" /><br>
+</div>
+<div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100000000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000000000.0.jpg" height="200" /><br>
+</div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 tv weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
 위 output img 이미지들은 각 tv weight 수치에 변동을 준 이미지들 입니다.<br>
