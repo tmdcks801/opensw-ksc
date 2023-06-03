@@ -95,7 +95,7 @@ content weight는 원본 이미지의 색상을 얼마나 유지할지를 정하
 
 다음 살펴볼 이미지는 style weight수치입니다.<br>
 style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지를 정하는 변수입니다.<br>
-</div>
+<div>
 <img src="example_image\combined_s1_a02 style\s1.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\a02.jpg" height="350" /><br>
 </div>
