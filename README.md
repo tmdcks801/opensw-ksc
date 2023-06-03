@@ -46,12 +46,14 @@ output img란 style img의 화풍으로 content img를 다시 그린 그림입�
 
 <img src="example_image\combined_d1_v4 height/d1.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/v4.png" height="300" /><br>
+<div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="320" />
+</div>
 <br>
 
 ######  (왼쪽 위 부터 오른쪽으로 각 각 height = 50, 100, 200, 400, 800, 1200)
