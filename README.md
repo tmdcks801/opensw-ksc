@@ -23,15 +23,8 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 
 ## •Analysis/Visualization <br>
 
-<span style="font-size: 10px;">
-이 항목에서 화풍이란 style img의 그림체와 색감의 조합을 의미합니다.<br>
-output img란 style img의 화풍으로 content img를 다시 그린 그림입니다.<br>
-각 항목의 첫번째 두번쨰 사진은 각각 content img, style img입니다.<br>
-그 외 6개의 사진은 content img, style img의 output img입니다.<br>
-각 수치의 기본 값들은 (height =400, content weight=1e5, style weight=3e4, tv weight=1e0) 입니다. <br>
-별도로 명시하지 않은 값들을 제외한 나머지는 기본 값들을 가지고 있습니다.<br>
+###### 이 항목에서 화풍이란 style img의 그림체와 색감의 조합을 의미합니다.<br>output img란 style img의 화풍으로 content img를 다시 그린 그림입니다.<br>각 항목의 첫번째 두번쨰 사진은 각각 content img, style img입니다.<br>그 외 6개의 사진은 content img, style img의 output img입니다.<br>각 수치의 기본 값들은 (height =400, content weight=1e5, style weight=3e4, tv weight=1e0) 입니다. <br>별도로 명시하지 않은 값들을 제외한 나머지는 기본 값들을 가지고 있습니다.<br>
 <br>
-</span>
 
 우선 본문에서 다룰 해당 머닝 러신에서의 변수는 총 4가지 있습니다.<br>
 1. height
