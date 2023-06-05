@@ -105,7 +105,7 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 위 output img 이미지들은 각 style weight 수치에 변동을 준 이미지들 입니다.<br>
 먼저 처음 사진 부터 content img와 차이가 보입니다. 하지만 화풍에 영향을 준것이 아닌 색상만 바뀌었을 뿐 그림체에는 영향을 거의 주지 않았습니다.<br>
 하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10부터 육안으로는 구분안되는 유사한 화풍을 가지게 되었습니다.<br>
-content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.. 
+content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.
 
 ### tv weight (total variation loss weight) 
 
@@ -129,19 +129,20 @@ tv weight의 수치가 높을 수록 content img에 가까운 이미지가 나�
 위 output img 이미지들은 각 tv weight 수치에 변동을 준 이미지들 입니다.<br>
 tv weight 수치가 높아 질수록 style img의 화풍이 끼치는 영향이 낮아지고 있는것이 육안으로 확인됩니다.<br>
 tv weight 수치가 낮은 1e0, 1e2는 style img의 영향이 크게 끼치지만, 1e4, 1e6부터 style img의 영향이 점차 사라지며 content img의 영향이 커지며, tv weight가 높은 1e8, 1e10은 style img의 영향이 육안으로는 거의 확인되지 않습니다.<br>
-추가로 tv weight수치가 높아질수록 output의 그림체의 선명도가 낮아지는 것이 확인됩니다.
+추가로 tv weight수치가 높아질수록 output의 그림체의 선명도가 낮아지는 것이 확인됩니다.<br>
+tv weight가 일정 수치(1e8)을 넘어갈시 유사한 output img가 나왔습니다.
 
 ### 정리
 
 1. height 수치가 높을수록 output img의 해상도가 올라간다.
 2. height 수치가 높을수록 output img의 세세한 부분이 표현된다.
 3. content weight 수치가 style weight에 비해 낮을 수록 style contnt 화풍의 영향이 output img에 낮게 미치며, 높을 수록 높게 미친다.
-4. output img의 색감에 style weight 수치의 높낮이와 상관이 없다.
-5. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style의 근접해지는 일정 수치가 넘어갈 시 유사한 output img가 나온다.
+4. output img의 색감에 미치는 영향은 style weight 수치의 높낮이와 상관이 없다.
+5. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style의 근접하거나, 일정 수치가 넘어갈 시 유사한 output img가 나온다.
 6. tv weight 수치가 높아 질수록 style weight의 화풍이 output img에가 끼치는 영향이 낮아진다.
 7. tv weight 수치가 높아 질수록 output img의 그림체의 선명도가 낮아진다.
 
-다음은 제가 애용하는 배경하면에 여러가지 style img를 넣은 사진입니다.<br>
+다음은 제가 애용하는 배경화면에 8가지 style img를 넣은 사진입니다.<br>
 <img src="example_image/v1/sum.jpg" height="1000" /><br>
 가운데 있는 사진이 원본입니다. 만약 여러분들도 이 repository에 관심이 있다면 좋아하는 사진에 여러가지 style img를 넣어 repository를 실행시켜 보세요.
 
