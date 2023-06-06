@@ -64,7 +64,7 @@ height 수치가 높아질수록 확인되는 점들을 말씀 드리겠습니�
 ### content weight
 
 다음 살펴볼 이미지는 content weight수치입니다.<br> 
-content weight는 원본 이미지의 색상을 얼마나 유지할지를 정하는 변수입니다.<br>
+content weight는 output img에 content img의 영향을 얼마나 끼칠지를 정하는 변수입니다.<br>
 <div>
 <img src="example_image\combined_h1_vg_self content\h1.jpg" height="270" />
 <img src="example_image\combined_h1_vg_self content\vg_self.jpg" height="270" /><br>
@@ -81,8 +81,8 @@ content weight는 원본 이미지의 색상을 얼마나 유지할지를 정하
 ###### ( 왼쪽 위 부터 오른쪽으로 content weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
 위 output img 이미지들은 각 content weight 수치에 변동을 준 이미지들입니다.<br>
 
-육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있으며 1e10은 원본과 유사한 색상을 가지고 있습니다.<br>
-(1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그런 것 같습니다. 그래서 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
+육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있으며 1e10은 content img와 유사한 이미지을 가지고 있습니다.<br>
+(1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그렇습니다. 그러하여 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
 
 ### style weight
 
@@ -103,13 +103,13 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 
 ###### ( 왼쪽 위 부터 오른쪽으로 style weight = 3e0, 3e2, 3e4, 3e6, 3e8, 3e10)
 위 output img 이미지들은 각 style weight 수치에 변동을 준 이미지들입니다.<br>
-먼저 수치와 상관없이 처음 사진부터 content img와 차이가 보입니다. 하지만 화풍에 영향을 준 것이 아닌 색상만 바뀌었을 뿐 그림체에는 영향을 거의 주지 않았습니다.<br>
-하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10부터 육안으로는 구분 안 될 정도의 유사한 화풍을 가지게 되었습니다.<br>
+먼저 수치와 상관없이 가장 낮은 수치인 처음 사진부터 content img와의 차이가 보입니다. 하지만 화풍에 영향을 준 것이 아닌 색상만 바뀌었을 뿐 그림체에는 영향을 거의 주지 않았습니다.<br>
+하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10의 output img들은 육안으론 구분 안 될 정도의 유사한 화풍을 가지게 되었습니다.<br>
 content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.
 
 ### tv weight (total variation loss weight) 
 
-먼저 tv weight을 설명드리겠습니다. total variation loss weight를 간단히 설명드리자면 "content img가 유지되는 영향의 정도"입니다.
+tv weight란 total variation loss weight의 줄인 말이며 변수를 간단히 말하자면 "content img가 유지되는 영향의 정도"입니다.
 tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵니다. 추가로 tv weight가 output 그림체의 부드러움(선명도)도 영향을 끼칩니다.<br>
 
 <div>
@@ -134,16 +134,17 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 
 ### 정리
 
-1. height 수치가 높을수록 output img의 해상도가 올라간다.
+1. height는 화질에 영향을 주는 변수다. 수치가 높을수록 output img의 해상도가 올라간다.
 2. content weight 수치가 style weight에 비해 낮을수록 style contnt 화풍의 영향이 output img에 낮게 미치며, 높을수록 높게 미친다.
 3. output img의 색감에 미치는 영향은 style weight 수치의 높낮이와 상관이 없다.
-4. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style의 근접하거나, 일정 수치가 넘어갈 시 유사한 output img가 나온다.
+4. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style에 근접하거나, 일정 수치가 넘어갈 시 유사한 output img가 나온다.
 5. tv weight 수치가 높아질수록 style weight의 화풍이 output img에가 끼치는 영향이 낮아진다.
 6. tv weight 수치가 높아질수록 output img의 그림체의 선명도가 낮아진다.
 
 다음은 제가 애용하는 배경화면에 8가지 style img를 넣은 사진입니다.<br>
 <img src="example_image/v1/sum.jpg" height="1000" /><br>
-가운데 있는 사진이 원본입니다. 만약 여러분들도 이 repository에 관심이 있다면 좋아하는 사진에 여러가지 style img를 넣어 repository를 실행시켜 보세요.
+가운데 있는 사진이 원본입니다. 만약 여러분들도 이 repository에 관심이 있다면 좋아하는 사진에 여러가지 style img를 넣어 repository를 실행시켜 보세요.<br>
+적절한 이미지들을 고르고 제가 말씀드린 변수들을 조절한다면 원하시는 이미지를 얻을실수 있을겁니다.
 
 ## •Installation<br>
 
