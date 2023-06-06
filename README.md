@@ -184,4 +184,4 @@ python에 다음과 같은 것들이 install되어 있어야합니다. (pip inst
   이제 여러 그림을 선택하고 실행하여 만들고 싶은 이미지를 만드시면 됩니다.<br>
   
 ## •Presentation
-(empty)<br>
+https://youtube.com/watch?v=YXFwjPDneGU&feature=share9
