@@ -109,7 +109,7 @@ content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사�
 
 ### tv weight (total variation loss weight) 
 
-tv weight란 total variation loss weight의 줄인 말이며 변수를 간단히 말하자면 "content img가 유지되는 영향의 정도"입니다.
+tv weight란 total variation loss weight의 줄인말이며  해당 변수를 간단히 설명하자면 "content img가 유지되는 영향의 정도"입니다.<br>
 tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵니다. 추가로 tv weight가 output 그림체의 부드러움(선명도)도 영향을 끼칩니다.<br>
 
 <div>
