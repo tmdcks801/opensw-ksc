@@ -103,7 +103,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 
 육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있습니다. 1e10은 content img와 유사한 이미지을 가지고 있습니다.<br>
 (1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그렇습니다. 그러하여 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
-#### 가장 높은 퀄리티의 output img를 만든 content weight의  1e4입니다<br>
+#### 가장 높은 퀄리티의 output img를 만든 content weight의 수치는 1e4입니다<br>
 
 ### style weight
 
@@ -181,7 +181,7 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 
 만약 당신이 좋은 NST이미지를 얻고 싶으시다면 각 요소가 명확한 content img와 강렬한 색감을 가진 style img를 사용하시는 것을 추천합니다.<br>
   
-#### 가장 좋은 퀄리티의 수치를 종합하자면 (height =1200, content weight=1e4, style weight=3e4, tv weight=1e0) 입니다.
+#### 가장 좋은 퀄리티의 output ing의 각각 수치를 종합하자면 (height =1200, content weight=1e4, style weight=3e4, tv weight=1e0) 입니다.
 
 ## •Installation<br>
 
