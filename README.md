@@ -181,7 +181,7 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 
 만약 당신이 좋은 NST이미지를 얻고 싶으시다면 각 요소가 명확한 content img와 강렬한 색감을 가진 style img를 사용하시는 것을 추천합니다.<br>
   
-#### 가장 좋은 퀄리티의 수치를 종합하자면 (height =1200, content weight=1e5, style weight=3e4, tv weight=1e0) 입니다.
+#### 가장 좋은 퀄리티의 수치를 종합하자면 (height =1200, content weight=1e4, style weight=3e4, tv weight=1e0) 입니다.
 
 ## •Installation<br>
 
