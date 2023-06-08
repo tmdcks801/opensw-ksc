@@ -45,10 +45,9 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_d1_v4 height/v4.png" height="300" /><br>
 </div>
 <div>
-<img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" alt="하얀 강아지"/>
+<img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" /><br>
-  50                                                       100                                                              200
 </div>
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
@@ -57,14 +56,6 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 </div>
 <br>
 
-<figure>
-  <div>
-    <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
-    <figcaption>100</figcaption>
-   <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
-    <figcaption>100</figcaption>
-    </div>
-</figure>
 
 ######  (왼쪽 위 부터 오른쪽으로 각 각 height = 50, 100, 200, 400, 800, 1200)
 위 output img 이미지 들은 각 height 수치에 변동을 준 이미지들 입니다.<br>
