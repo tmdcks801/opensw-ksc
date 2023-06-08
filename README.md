@@ -141,16 +141,16 @@ tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100.0.jpg" height="200" /><br>
-　　　　　　height=50　　　　　　　　　　　height=100　　　　　　　　　　　　　height=200
+　　　　　　weight=1e0　　　　　　　　　　　　　　　　　　　　　　weight=1e2
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0.jpg" height="200" /><br>
-　　　　　　height=50　　　　　　　　　　　height=100　　　　　　　　　　　　　height=200
+　　　　　　weight=1e0　　　　　　　　　　　　　　　　　　　　　　weight=1e2
 </div>
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100000000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000000000.0.jpg" height="200" /><br>
-　　　　　　height=50　　　　　　　　　　　height=100　　　　　　　　　　　　　height=200
+　　　　　　weight=1e0　　　　　　　　　　　　　　　　　　　　　　weight=1e2
 </div>
 
 위 output img 이미지들은 tv weight 수치에 변동을 준 이미지들입니다.<br><br>
