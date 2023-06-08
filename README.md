@@ -20,7 +20,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_d1_candy\d1_candy_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" /> 
  </div>
 
-### example 여러 스타일의 output
+### example) 여러 스타일의 output
 <img src="example_image/v1/sum.jpg" height="1000" /><br>
 
 
