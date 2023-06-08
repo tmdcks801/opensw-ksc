@@ -83,7 +83,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 <div>
 <img src="example_image\combined_h1_vg_self content\h1.jpg" height="270" />
 <img src="example_image\combined_h1_vg_self content\vg_self.jpg" height="270" /><br>
-    　　　　　　　　content img　　　　　　　　　　　　　　output img
+    　　　　　　　　content img　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
@@ -110,7 +110,7 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 <div>
 <img src="example_image\combined_s1_a02 style\s1.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\a02.jpg" height="350" /><br>
-    　　　　　　　　content img　　　　　　　　　　　　　　output img
+    　　　　　　　　content img　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3.0_tv_1.0.jpg" height="350" />
