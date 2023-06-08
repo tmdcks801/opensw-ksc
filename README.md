@@ -169,7 +169,7 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 5. tv weight 수치가 높아질수록 style weight의 화풍이 output img에가 끼치는 영향이 낮아진다.
 6. tv weight 수치가 높아질수록 output img의 그림체의 선명도가 낮아진다.
   
-만약 당신이 좋은 NST이미지를 얻고 싶으시다면 각 요소가 명확한 content img와 강렬한 색감을 가진 style img를 사용하는 것을 추천합니다..
+만약 당신이 좋은 NST이미지를 얻고 싶으시다면 각 요소가 명확한 content img와 강렬한 색감을 가진 style img를 사용하시는 것을 추천합니다.
 
 ## •Installation<br>
 
