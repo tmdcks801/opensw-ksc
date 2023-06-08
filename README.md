@@ -83,6 +83,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 <div>
 <img src="example_image\combined_h1_vg_self content\h1.jpg" height="270" />
 <img src="example_image\combined_h1_vg_self content\vg_self.jpg" height="270" /><br>
+    　　　　　　　　content img　　　　　　　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
@@ -109,18 +110,19 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 <div>
 <img src="example_image\combined_s1_a02 style\s1.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\a02.jpg" height="350" /><br>
+    　　　　　　　　content img　　　　　　　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="350" /><br>
-　　　　　　weight=3e0　　　　　　　　　　　weight=3e2　　　　　　　　　　　　　weight=3e4
+　　　　　　weight=3e0　　　　　　　　　　　weight=3e2　　　　　　　　　　　　weight=3e4
 </div>
 <div>
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000000000.0_tv_1.0.jpg" height="350" /><br>
-　　　　　　weight=3e6　　　　　　　　　　　weight=3e8　　　　　　　　　　　　　weight=3e10
+　　　　　　weight=3e6　　　　　　　　　　　weight=3e8　　　　　　　　　　　　weight=3e10
 </div>
 
 위 output img 이미지들은 style weight 수치에 변동을 준 이미지들입니다.<br><br>
@@ -137,6 +139,7 @@ tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\mosaic.jpg" height="200" /><br>
+    　　　　　　　　content img　　　　　　　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
