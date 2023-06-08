@@ -20,11 +20,11 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_d1_candy\d1_candy_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" /> 
  </div>
 
-### other
+### others
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
-<img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300000000.0_tv_1.0.jpg" height="350" />
+<img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
 </div>
 
