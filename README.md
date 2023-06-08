@@ -80,13 +80,13 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_100.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_10000.0_sw_30000.0_tv_1.0.jpg" height="270"><br>
-　　　　　　　　1e0　　　　　　　　　　　　　　　　　1e2　　　　　　　　　　　　　　　　1e4
+　　　　　　　　1e0　　　　　　　　　　　　　　　　1e2　　　　　　　　　　　　　　　1e4
 </div>
 <div>
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1000000.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_100000000.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_10000000000.0_sw_30000.0_tv_1.0.jpg" height="270"><br>
-　　　　　　　　1e6　　　　　　　　　　　　　　　　　1e8　　　　　　　　　　　　　　　　1e10
+　　　　　　　　1e6　　　　　　　　　　　　　　　　1e8　　　　　　　　　　　　　　　1e10
 </div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 content weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
