@@ -72,7 +72,8 @@ height 수치가 높아질수록 확인되는 점들을 말씀 드리겠습니�
 <br>
 해상도가 올라갑니다.. 사진을 확대하여 픽셀을 확인한다면 height의 수치가 높을수록 output img를 이루는 픽셀의 크기가 작아지며 촘촘해지는 것이 확인됩니다.<br>
 원본 이미지와의 유사도가 높아집니다. height 수치가 낮은 50~200에서의 output img는 세세한 이미지의 분간이 힘든 반면 400부터 말과 집의 형태가 육안으로도 쉽게 구분되며 해상도가 높아질수록 낮은 height 수치에서는 발견되지 않은 content img의 세세한 부분이 식별됩니다.<br>
-<br>만약 당신이 좋은 이미지를 얻고 싶으신다면 높은 height수치를 설정하시길 바랍니다.<br>
+
+#### 만약 당신이 좋은 이미지를 얻고 싶으신다면 높은 height수치를 설정하시길 바랍니다.<br> 저는 800이상의 수치를 추천드립니다.<br>
 
 하지만 height수치가 올라갈수록 output img와는 별도로 프로그램의 실행 시간이 증가하였습니다.<br>
 
@@ -102,6 +103,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 
 육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있습니다. 1e10은 content img와 유사한 이미지을 가지고 있습니다.<br>
 (1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그렇습니다. 그러하여 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
+#### 제가 추천하는 content weight는 1e0입니다<br>
 
 ### style weight
 
@@ -129,7 +131,9 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
   
 먼저 수치와 상관없이 가장 낮은 수치인 처음 사진부터 content img와의 차이가 보입니다. 하지만 화풍에 영향을 준 것이 아닌 색상만 바뀌었을 뿐 그림체에는 영향을 거의 주지 않았습니다.<br>
 하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10의 output img들은 육안으론 구분 안 될 정도의 유사한 화풍을 가지게 되었습니다.<br>
-content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.
+content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.<br>
+
+#### 제가 추천하는 style weight는 3e4입니다<br>
 
 ### tv weight (total variation loss weight) 
 
@@ -163,6 +167,8 @@ tv weight 수치가 낮은 1e0, 1e2는 style img의 영향이 크게 끼치지�
 추가로 tv weight 수치가 높아질수록 output의 그림체의 선명도가 낮아지는 것이 확인됩니다.<br>
 tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔습니다.
 
+#### 제가 추천하는 tv weight는 1e0입니다<br>
+
 ### 정리
 
 1. height는 화질에 영향을 주는 변수다. 수치가 높을수록 output img의 해상도가 올라간다.
@@ -171,8 +177,9 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 4. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style에 근접하거나, 일정 수치가 넘어갈 시 유사한 output img가 나온다.
 5. tv weight 수치가 높아질수록 style weight의 화풍이 output img에가 끼치는 영향이 낮아진다.
 6. tv weight 수치가 높아질수록 output img의 그림체의 선명도가 낮아진다.
-  
+
 만약 당신이 좋은 NST이미지를 얻고 싶으시다면 각 요소가 명확한 content img와 강렬한 색감을 가진 style img를 사용하시는 것을 추천합니다.
+제가 추천하는 최적의 수치는 (height =1200, content weight=1e5, style weight=3e4, tv weight=1e0) 입니다.
 
 ## •Installation<br>
 
