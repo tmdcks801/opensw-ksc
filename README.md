@@ -48,12 +48,12 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" /><br>
-　　　　　　　　50　　　　　　　　　　　　　　　　　100　　　　　　　　　　　　　　　　　200
+　　　　　　　　50　　　　　　　　　　　　　　　　100　　　　　　　　　　　　　　　　200
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" /><br>
-  　　　　　　　　400　　　　　　　　　　　　　　　　　800　　　　　　　　　　　　　　　　1200
+  　　　　　　　　400　　　　　　　　　　　　　　　　800　　　　　　　　　　　　　　　1200
 </div>
 <br>
 
@@ -107,13 +107,13 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="350" /><br>
-　　　　　　　　3e0　　　　　　　　　　　　　　　　3e2　　　　　　　　　　　　　　　　3e4
+　　　　　　　　3e0　　　　　　　　　　　　　　　3e2　　　　　　　　　　　　　　　3e4
 </div>
 <div>
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_3000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_300000000.0_tv_1.0.jpg" height="350" />
 <img src="example_image\combined_s1_a02 style\s1_a02_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000000000.0_tv_1.0.jpg" height="350" /><br>
-　　　　　　　　3e6　　　　　　　　　　　　　　　　3e8　　　　　　　　　　　　　　　　3e10
+　　　　　　　　3e6　　　　　　　　　　　　　　　3e8　　　　　　　　　　　　　　　3e10
 </div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 style weight = 3e0, 3e2, 3e4, 3e6, 3e8, 3e10)
@@ -134,16 +134,16 @@ tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100.0.jpg" height="200" /><br>
-　　　　　　　　3e0　　　　　　　　　　　　　　　　　　　　　　　　3e2
+　　　　　　　　1e0　　　　　　　　　　　　　　　　　　　　　　　　1e2
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0.jpg" height="200" /><br>
-　　　　　　　　3e4　　　　　　　　　　　　　　　　　　　　　　　　3e6
+　　　　　　　　1e4　　　　　　　　　　　　　　　　　　　　　　　　1e6
 </div>
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100000000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000000000.0.jpg" height="200" /><br>
-　　　　　　　　3e8　　　　　　　　　　　　　　　　　　　　　　　　3e10
+　　　　　　　　1e8　　　　　　　　　　　　　　　　　　　　　　　　1e10
 </div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 tv weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
