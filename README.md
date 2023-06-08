@@ -20,6 +20,9 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_d1_candy\d1_candy_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" width="314" height="440" /> 
  </div>
 
+### example 여러 스타일의 output
+<img src="example_image/v1/sum.jpg" height="1000" /><br>
+
 
 ## •Analysis/Visualization <br>
 
@@ -140,11 +143,6 @@ tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔�
 4. output img의 그림체는 style weight가 높을수록 영향이 강해지며, content style에 근접하거나, 일정 수치가 넘어갈 시 유사한 output img가 나온다.
 5. tv weight 수치가 높아질수록 style weight의 화풍이 output img에가 끼치는 영향이 낮아진다.
 6. tv weight 수치가 높아질수록 output img의 그림체의 선명도가 낮아진다.
-
-다음은 제가 애용하는 배경화면에 8가지 style img를 넣은 사진입니다.<br>
-<img src="example_image/v1/sum.jpg" height="1000" /><br>
-가운데 있는 사진이 원본입니다. 만약 여러분들도 이 repository에 관심이 있다면 좋아하는 사진에 여러가지 style img를 넣어 repository를 실행시켜 보세요.<br>
-적절한 이미지들을 고르고 제가 말씀드린 변수들을 조절한다면 원하시는 이미지를 얻을실수 있을겁니다.
 
 ## •Installation<br>
 
