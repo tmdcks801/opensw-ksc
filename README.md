@@ -50,17 +50,18 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <div>
 <img src="example_image\combined_d1_v4 height/d1.jpg" height="320" />
 <img src="example_image\combined_d1_v4 height/v4.png" height="300" /><br>
+  　　　　　　　　content img　　　　　　　　　　　　　　　　output img
 </div>
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_50_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" /><br>
-　　　　　　　　50　　　　　　　　　　　　　　　　100　　　　　　　　　　　　　　　　200
+　　　　　height=50　　　　　　　　　　　height=100　　　　　　　　　　　　　height=200
 <div>
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_800_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
 <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_1200_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" /><br>
-  　　　　　　　　400　　　　　　　　　　　　　　　　800　　　　　　　　　　　　　　　1200
+  　　　　　height=400　　　　　　　　　　height=800　　　　　　　　　　　　　height=1200
 </div>
 <br>
 
