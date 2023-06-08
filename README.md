@@ -103,7 +103,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 
 육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있습니다. 1e10은 content img와 유사한 이미지을 가지고 있습니다.<br>
 (1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그렇습니다. 그러하여 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
-#### 가장 좋은 content weight는 1e4입니다<br>
+#### 가장 높은 퀄리티의 output img를 만든 content weight의  1e4입니다<br>
 
 ### style weight
 
@@ -133,7 +133,7 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10의 output img들은 육안으론 구분 안 될 정도의 유사한 화풍을 가지게 되었습니다.<br>
 content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.<br>
 
-#### 가장 좋은 style weight는 3e4입니다<br>
+#### 가장 높은 퀄리티의 output img를 만든 style weight의 수치 3e4입니다<br>
 
 ### tv weight (total variation loss weight) 
 
@@ -168,7 +168,7 @@ tv weight 수치가 낮은 1e0, 1e2는 style img의 영향이 크게 끼치지�
 추가로 tv weight 수치가 높아질수록 output의 그림체의 선명도가 낮아지는 것이 확인됩니다.<br>
 tv weight가 일정 수치(1e8)을 넘어갈 시 유사한 output img가 나왔습니다.
 
-#### 가장 좋은 tv weight는 1e0입니다<br>
+#### 가장 높은 퀄리티의 output img를 만든 tv weight의 수치는 1e0입니다<br>
 
 ### 정리
 
