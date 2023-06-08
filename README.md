@@ -134,15 +134,16 @@ tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100.0.jpg" height="200" /><br>
-　　　　　　　　3e0　　　　　　　　　　　　　　　　　　　　3e2
+　　　　　　　　3e0　　　　　　　　　　　　　　　　　　　　　　　　3e2
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1000000.0.jpg" height="200" /><br>
+　　　　　　　　3e4　　　　　　　　　　　　　　　　　　　　　　　　3e6
 </div>
 <div>
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_100000000.0.jpg" height="200" />
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_10000000000.0.jpg" height="200" /><br>
-　　　　　　　　
+　　　　　　　　3e8　　　　　　　　　　　　　　　　　　　　　　　　3e10
 </div>
 
 ###### ( 왼쪽 위 부터 오른쪽으로 tv weight = 1e0, 1e2, 1e4, 1e6, 1e8, 1e10)
