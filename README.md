@@ -65,7 +65,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <br>
 
 
-위 output img 이미지 들은 height 수치에 변동을 준 이미지들 입니다.<br>
+위 output img 이미지 들은 height 수치에 변동을 준 이미지들 입니다.<br><br>
 
 height 수치가 높아질수록 확인되는 점들을 말씀 드리겠습니다.<br>
 <br>
@@ -95,7 +95,7 @@ content weight는 output img에 content img의 영향을 얼마나 끼칠지를 
 　　　　　　　　1e6　　　　　　　　　　　　　　　　1e8　　　　　　　　　　　　　　　1e10
 </div>
 
-위 output img 이미지들은 content weight 수치에 변동을 준 이미지들입니다.<br>
+위 output img 이미지들은 content weight 수치에 변동을 준 이미지들입니다.<br><br>
 
 육안상으로는 (1e0 ~1e4)에서는 각 output img의 차이를 확인하기 어렵습니다. 1e6에서부터 약간의 차이가 보이며, 1e8부터 육안 상의 차이를 쉽게 확인할수 있습니다. 1e10은 content img와 유사한 이미지을 가지고 있습니다.<br>
 (1e0 ~1e4)에서 차이가 확인되지 않은 이유는 비록 1e2씩 커져서 1e4까지 커지지만 수치가 style weight의 기본 값인 3e4에 비해 낮은 수치이기 때문에, 비교하여도 큰 차이가 나지 않아서 그렇습니다. 그러하여 style weight의 기본값을 넘어서는 1e6부터는 육안으로도 차이가 확인되었습니다.<br>
@@ -121,7 +121,8 @@ style weight는 style img의 화풍이 output에 영향을 얼마나 끼칠지�
 　　　　　　　　3e6　　　　　　　　　　　　　　　3e8　　　　　　　　　　　　　　　3e10
 </div>
 
-위 output img 이미지들은 style weight 수치에 변동을 준 이미지들입니다.<br>
+위 output img 이미지들은 style weight 수치에 변동을 준 이미지들입니다.<br><br>
+  
 먼저 수치와 상관없이 가장 낮은 수치인 처음 사진부터 content img와의 차이가 보입니다. 하지만 화풍에 영향을 준 것이 아닌 색상만 바뀌었을 뿐 그림체에는 영향을 거의 주지 않았습니다.<br>
 하지만 3e2부터 그림체가 급격히 바뀌더니 3e4~3e10의 output img들은 육안으론 구분 안 될 정도의 유사한 화풍을 가지게 되었습니다.<br>
 content weight인 1e5에 근접하는 3e4부터 그 이후의 값들은 유사한 output img가 나왔습니다.
@@ -150,7 +151,8 @@ tv weight의 수치가 높을수록 content img에 가까운 이미지가 나옵
 　　　　　　　　1e8　　　　　　　　　　　　　　　　　　　　　　　　1e10
 </div>
 
-위 output img 이미지들은 tv weight 수치에 변동을 준 이미지들입니다.<br>
+위 output img 이미지들은 tv weight 수치에 변동을 준 이미지들입니다.<br><br>
+  
 tv weight 수치가 높아질수록 style img의 화풍이 끼치는 영향이 낮아지고 있는 것이 육안으로 확인됩니다.<br>
 tv weight 수치가 낮은 1e0, 1e2는 style img의 영향이 크게 끼치지만, 1e4, 1e6부터 style img의 영향이 점차 사라지며 content img의 영향이 커지며, tv weight가 높은 1e8, 1e10은 style img의 영향이 육안으로는 거의 확인되지 않습니다.<br>
 추가로 tv weight 수치가 높아질수록 output의 그림체의 선명도가 낮아지는 것이 확인됩니다.<br>
