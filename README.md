@@ -27,6 +27,7 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 <img src="example_image\combined_h1_vg_self content\h1_vg_self_o_lbfgs_i_content_h_400_m_vgg19_cw_1.0_sw_30000.0_tv_1.0.jpg" height="270">
 <img src="example_image\combined_m1_mosaic1 tv weight\m1_mosaic_o_lbfgs_i_content_h_400_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="270" />
 </div>
+
 ##### 4개의 이미지에 5개의 화풍을 NST를 적용시켜 총 26개의 결과물을 얻었습니다. <br> `/example_image`에 각 결과물들이 저장되어 있습니다.<br> NST를 적용시킨 원본 이미지들은 `/data/content-images/`에 저장되어 있습니다.<br> NST에 적용시킨 화풍 이미지들은 `/data/style-images/`에 저장되어 있습니다.<br>
 
 
