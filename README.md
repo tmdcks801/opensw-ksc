@@ -57,6 +57,11 @@ Neural Style Transfer(화풍을 바꾸는 머닝 러싱)<br>
 </div>
 <br>
 
+<figure>
+    <img src="example_image\combined_d1_v4 height/d1_v4_o_lbfgs_i_content_h_100_m_vgg19_cw_100000.0_sw_30000.0_tv_1.0.jpg" height="360" />
+    <figcaption>100</figcaption>
+</figure>
+
 ######  (왼쪽 위 부터 오른쪽으로 각 각 height = 50, 100, 200, 400, 800, 1200)
 위 output img 이미지 들은 각 height 수치에 변동을 준 이미지들 입니다.<br>
 
